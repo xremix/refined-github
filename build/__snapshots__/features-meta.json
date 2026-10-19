@@ -1,5 +1,10 @@
 [
 	{
+		"id": "absolute-time",
+		"description": "Shows absolute dates for commits older than 6 months on repository file lists.",
+		"screenshot": "https://github.com/user-attachments/assets/8c2bbd77-94fc-4917-8fef-ebdbd83a2c24"
+	},
+	{
 		"id": "action-pr-link",
 		"description": "Adds a link back to the PR that ran the workflow.",
 		"screenshot": "https://github-production-user-asset-6210df.s3.amazonaws.com/50487467/241645264-076a0137-36a2-4fd0-a66e-735ef3b3a563.png"
@@ -228,6 +233,12 @@
 		"description": "Dims commits and PRs by bots to reduce noise.",
 		"css": true,
 		"screenshot": "https://user-images.githubusercontent.com/1402241/220607557-f8ea0863-f05b-48c8-a447-1fec42af0afd.gif"
+	},
+	{
+		"id": "dim-viewed-files",
+		"description": "Dims viewed files in the PR file tree, keeping unreviewed files easy to find.",
+		"css": true,
+		"screenshot": "https://github.com/user-attachments/assets/fad7e90a-900b-4d58-9d9d-c5f551848572"
 	},
 	{
 		"id": "download-folder-button",
@@ -661,7 +672,7 @@
 	},
 	{
 		"id": "pr-filters",
-		"description": "Adds Checks and Draft PR dropdown filters in PR lists.",
+		"description": "Adds a Draft PR dropdown filter in PR lists.",
 		"screenshot": "https://github-production-user-asset-6210df.s3.amazonaws.com/83146190/253068868-6afb4656-4ef5-4846-89c5-24dc6ee7f839.png"
 	},
 	{
